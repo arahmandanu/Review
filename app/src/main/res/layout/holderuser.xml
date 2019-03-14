@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:id="@+id/atas"
+        android:paddingLeft="20dp">
+
+        <ImageView
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imguser"
+            android:background="@mipmap/ic_launcher_round"
+            android:layout_alignParentLeft="true"
+            />
+        <TextView
+            android:paddingLeft="10dp"
+            android:id="@+id/iduser"
+            android:text="Adrian"
+            android:textSize="14dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/imguser"/>
+        <TextView
+            android:id="@+id/jam"
+            android:paddingLeft="10dp"
+            android:paddingHorizontal="10dp"
+            android:layout_toRightOf="@id/imguser"
+            android:layout_below="@id/iduser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="14 Maret 2019"/>
+        <RatingBar
+            android:paddingLeft="10dp"
+            android:layout_toRightOf="@id/imguser"
+            android:layout_below="@id/jam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Base.Widget.AppCompat.RatingBar.Small"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/atas">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/chat"
+            android:text="Mantap mas bro"
+            android:pad
+            android:textSize="15dp"/>
+
+        <ImageView
+            android:layout_below="@id/chat"
+            android:background="@mipmap/ic_launcher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/isigambar"/>
+    </RelativeLayout>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
