@@ -1,5 +1,6 @@
-package com.example.reviewtes;
+package com.example.reviewtes.Review;
 
+import com.example.reviewtes.Review.PojoData;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
