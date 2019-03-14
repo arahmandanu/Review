@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Review Tes</string>
+    <string name="header">Review</string>
+    <string name="review">Tulis Review Terbaikmu</string>
 </resources>
