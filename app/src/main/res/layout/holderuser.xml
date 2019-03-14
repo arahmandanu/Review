@@ -58,14 +58,15 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/atas">
+        android:layout_below="@id/atas"
+        android:gravity="center">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/chat"
             android:text="Mantap mas bro"
-            android:pad
+            android:paddingBottom="5dp"
             android:textSize="15dp"/>
 
         <ImageView
